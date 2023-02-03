@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subscribe-container{
+    display: flex;
+    background-color: rgb(208, 212, 214);
+    margin: 2rem;
+    padding: 4rem;
+    border: 1px solid rgb(208, 212, 214);
+    border-radius: 0.5rem;
+   justify-content: space-around;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subscribe-container h1{
+    font-size: 1.75rem;
+}
+
+.join{
+
+}
+
+.join p{
+    color: rgb(139, 130, 130);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.email-btn{
+  margin-bottom: 1rem;
+}
+
+
+
+.email .email-btn input{
+    width: 60%;
+ padding: 1rem 4.3rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.btn{
+    border-radius: 0.25rem;
+    padding: 1.1rem 3rem;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: rgb(19, 95, 235);
+color: white;
+}
+
+#underline{
+    border-bottom: 1px solid black;
+}
+
+.privacy p{
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .subscribe-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .join{
+        width: 100%;
+    }
+
+    .email{
+        width: 100%;
+    }
+
+    .email .email-btn input{
+        width: 100%;
+        margin-top: 2rem;
+margin-bottom: 1rem;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
