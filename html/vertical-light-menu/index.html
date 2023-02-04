@@ -10,7 +10,7 @@
     <link href="../layouts/vertical-light-menu/css/light/loader.css" rel="stylesheet" type="text/css" />
     <link href="../layouts/vertical-light-menu/css/dark/loader.css" rel="stylesheet" type="text/css" />
 
-
+    <link rel="stylesheet" href="https://kit.fontawesome.com/0dd2ebfa70.css" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     
 <!-- swiper -->
@@ -1343,6 +1343,20 @@
                 <div class="middle-content container-xxl p-0">
                     <div class="row layout-top-spacing">
 
+                        <!-- notification -->
+                        <div class="header-notification">
+                            <div class="icon">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </div>
+                            <div class="content">
+                                <p>Notification</p>
+                            </div>
+                            <div class="close">
+                                <i class="fa-regular fa-circle-xmark" 
+                                ></i>  
+                            </div>
+                        </div>
+
                         <!-- Blog cards start -->
 
                         <div class="card-group">
@@ -1724,11 +1738,55 @@
 <div class="swiper-pagination"></div>                         
 </section>            
                         <!-- Profile end -->
-
+ <!-- notifications -->
+<section class="main-notification-container">
+    <div class="notifications">
+        <div class="success">
+            <div class="icon pe-2">
+                <i class="fa-regular fa-circle-check"></i>
+            </div>
+            <div class="success-content pe-5">
+    <p>Success</p>
+            </div>
+            <div class="closeS" >
+                <i class="fa-regular fa-circle-xmark" 
+                ></i>   
+            </div>
+        </div>
+        <div class="info">
+            <div class="icon pe-2">
+                <i class="fa-solid fa-info "></i>
+            </div>
+            <div class="info-content pe-5">
+    <p>Info</p>
+            </div>
+            <div class="closeI">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+        </div>
+        <div class="error">
+            <div class="icon pe-2">
+                <i class="fa-solid fa-exclamation"></i>
+            </div>
+            <div class="error-content pe-5">
+                <p>Error</p>
+            </div>
+            <div class="closeE">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+        </div>
+        </div>
+</section>
+ 
                     </div>
                 </div>
             </div>
         </div>
+
+       
+
+
+       
         <!--  BEGIN FOOTER  -->
         <div class="footer-wrapper">
             <div class="footer-section f-section-1">
@@ -1781,7 +1839,7 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
-
+    <script src="https://kit.fontawesome.com/0dd2ebfa70.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

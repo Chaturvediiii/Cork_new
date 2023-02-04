@@ -11,3 +11,26 @@ var swiper = new Swiper(".mySwiper", {
     },
 
   });
+
+
+let closeS = document.querySelector(".closeS");
+let closeI = document.querySelector(".closeI");
+let closeE = document.querySelector(".closeE");
+let success = document.querySelector(".success");
+let info = document.querySelector(".info");
+let error = document.querySelector(".error");
+
+closeS.addEventListener("click", function(){
+success.classList.toggle("closeSuccess")
+
+})
+
+closeI.addEventListener("click", function(){
+  info.classList.toggle("closeInfo")
+  
+  })
+
+  closeE.addEventListener("click", function(){
+    error.classList.toggle("closeError")
+    
+    })
