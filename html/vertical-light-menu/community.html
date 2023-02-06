@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../src/assets/img/favicon.ico" />
     <link href="../layouts/vertical-light-menu/css/light/loader.css" rel="stylesheet" type="text/css" />
     <link href="../layouts/vertical-light-menu/css/dark/loader.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="community.css">
     <link rel="stylesheet" href="https://kit.fontawesome.com/0dd2ebfa70.css" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     
@@ -52,7 +52,9 @@
     <!--  END LOADER -->
 
     <!--  BEGIN NAVBAR  -->
+      
     <div class="header-container container-xxl">
+  
         <header class="header navbar navbar-expand-sm expand-header">
 
             <a href="javascript:void(0);" class="sidebarCollapse">
@@ -70,7 +72,7 @@
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="feather feather-search">
                     <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="21" y1="21" x2="16.65" y="16.65"></line>
                 </svg>
                 <form class="form-inline search-full form-inline search" role="search">
                     <div class="search-bar">
@@ -387,8 +389,8 @@
                 </li>
             </ul>
         </header>
-    </div>
-    <!--  END NAVBAR  -->
+    </div> 
+    <!--  END NAVBAR -->
 
     <!--  BEGIN MAIN CONTAINER  -->
     <div class="main-container" id="container">
@@ -1339,444 +1341,108 @@
 
         <!--  BEGIN CONTENT AREA  -->
         <div id="content" class="main-content">
+            <div class="secondary-nav">
+                <div class="navlinks">
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+             
+                </div>
+            </div>
             <div class="layout-px-spacing">
                 <div class="middle-content container-xxl p-0">
                     <div class="row layout-top-spacing">
 
-                        <!-- notification -->
-                        <div class="header-notification">
-                            <div class="icon">
-                                <i class="fa-regular fa-circle-check"></i>
-                            </div>
-                            <div class="content">
-                                <p>Notification</p>
-                            </div>
-                            <div class="closeN">
-                                <i class="fa-regular fa-circle-xmark" 
-                                ></i>  
-                            </div>
-                        </div>
-
-                        <!-- Blog cards start -->
-
-                        <div class="card-group">
-                            <div class="card p-2">
-                                <div class="heading">
-                                    <div class="logo"><img src="../src/assets/img/cork-logo.png" alt=""></div>
-                                    <div class="main-content">
-                                        <h1>E-cell Rgpv</h1>
-                                        <p id="para">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <span class="connect"><img
-                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nO2UQQqDMBREH7R4BA9jzqdpz6cXqJguSnsGizCLUJKA8tOVA4EYwvsmfzJw6g9qgDvwBALgtWamG7D+jMGyQBC0A5zm25qZPoK6qMBiBW+BOXFFvRV8EvABvPXnfa7JsRteml8L8FHwUd+H3OCt4Dk3rIWxCx4XcLUK+NpX1AgY1OStJ5fM3rjItPckR2w668GZZ1GbeWhDjajoamVRqJlFOfeZZFHKfcUsOkVKX/lFZ8NKLzMMAAAAAElFTkSuQmCC"></span>
-                                </div>
-                                <div class="body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span
-                                            id="dot-1">...</span><span id="more-1">Magni repudiandae molestiae velit
-                                            earum eos dolorum numquam. Sunt expedita asperiores exercitationem</span>
-                                        <span id="btn-read-1" onclick="readMore1()">Read more</span>.
-                                    </p>
-                                </div>
-                                <img class="card-img-top" src="../src/assets/img/infobox-1.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-title">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="card-footer-blog">
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-thumbs-up"></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-bookmark "></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-play"></i>
-                                        <span>1</span>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary">Explore</button>
-                            </div>
-                            <div class="card p-2">
-                                <div class="heading">
-                                    <div class="logo"><img src="../src/assets/img/cork-logo.png" alt=""></div>
-                                    <div class="main-content">
-                                        <h1>E-cell Rgpv</h1>
-                                        <p id="para">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <span class="connect"><img
-                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nO2UQQqDMBREH7R4BA9jzqdpz6cXqJguSnsGizCLUJKA8tOVA4EYwvsmfzJw6g9qgDvwBALgtWamG7D+jMGyQBC0A5zm25qZPoK6qMBiBW+BOXFFvRV8EvABvPXnfa7JsRteml8L8FHwUd+H3OCt4Dk3rIWxCx4XcLUK+NpX1AgY1OStJ5fM3rjItPckR2w668GZZ1GbeWhDjajoamVRqJlFOfeZZFHKfcUsOkVKX/lFZ8NKLzMMAAAAAElFTkSuQmCC"></span>
-                                </div>
-                                <div class="body">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span
-                                            id="dot-2">...</span> <span id="more-2">Laudantium ab consequatur numquam
-                                            porro optio magni at explicabo maxime atque quam.</span><span
-                                            id="btn-read-2" onclick="readMore2()">Read More</span></p>
-
-                                </div>
-                                <img class="card-img-top" src="../src/assets/img/infobox-1.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-title">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="card-footer-blog">
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-thumbs-up"></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-bookmark "></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-play"></i>
-                                        <span>1</span>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary">Explore</button>
-                            </div>
-                            <div class="card p-2">
-                                <div class="heading">
-                                    <div class="logo"><img src="../src/assets/img/cork-logo.png" alt=""></div>
-                                    <div class="main-content">
-                                        <h1>E-cell Rgpv</h1>
-                                        <p id="para">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <span class="connect"><img
-                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nO2UQQqDMBREH7R4BA9jzqdpz6cXqJguSnsGizCLUJKA8tOVA4EYwvsmfzJw6g9qgDvwBALgtWamG7D+jMGyQBC0A5zm25qZPoK6qMBiBW+BOXFFvRV8EvABvPXnfa7JsRteml8L8FHwUd+H3OCt4Dk3rIWxCx4XcLUK+NpX1AgY1OStJ5fM3rjItPckR2w668GZZ1GbeWhDjajoamVRqJlFOfeZZFHKfcUsOkVKX/lFZ8NKLzMMAAAAAElFTkSuQmCC"></span>
-                                </div>
-                                <div class="body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
-                                            id="dot-3">...</span><span id="more-3">Cupiditate, ratione! Dicta fugit
-                                            repudiandae magni debitis nostrum doloremque perferendis accusamus
-                                            optio.</span><span id="btn-read-3" onclick="readMore3()">Read More</span>
-                                    </p>
-                                </div>
-                                <img class="card-img-top" src="../src/assets/img/infobox-1.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-title">Lorem ipsum dolor sit amet.</p>
-
-                                </div>
-                                <div class="card-footer-blog">
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-thumbs-up"></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-bookmark "></i>
-                                        <span>1</span>
-                                    </div>
-                                    <div class="icon-text">
-                                        <i class="fa-solid fa-play"></i>
-                                        <span>1</span>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary">Explore</button>
-                            </div>
-                        </div>
-
-                        <!-- blog cards end -->
-
-                        <!-- Event start -->
-
-                        <div class="event-container">
-                            <div class="banner my-5">
-                                <div class="banner-img ">
-                                    <img src="../src/assets/img/infobox-1.jpg" alt="" class="">
-                                </div>
-                                <div class="banner-info p-3">
-                                    <div class="heading">
-                                        <div class="logo"><img src="../src/assets/img/cork-logo.png" alt="" class="">
-                                        </div>
-                                        <div class="main-content">
-                                            <h1>E-cell Rgpv</h1>
-                                            <p id="para">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                    <div class="more-content">
-                                        <h5 class="mt-3">Lorem ipsum dolor sit amet.</h5>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span id="dot-event">...</span> <span id="readMore">Nisi, eveniet eos quae dolores fugiat nesciunt ipsum est veniam minima necessitatibus.</span> <span id="read" onclick="readMoreEvent()">Read More</span></p>
-                                        <div class="button  ">
-                                            <button class="btn btn-primary ">Explore</button>
-                                            <button class="btn btn-primary">Explore</button>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="card-footer pb-2">
-                                        <div class="icon-text">
-                                            <i class="fa-solid fa-thumbs-up"></i>
-                                            <span>1</span>
-                                        </div>
-                                        <div class="icon-text">
-                                            <i class="fa-solid fa-bookmark "></i>
-                                            <span>1</span>
-                                        </div>
-                                        <div class="icon-text">
-                                            <i class="fa-solid fa-play"></i>
-                                            <span>1</span>
-                                        </div>
-
-
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Event end -->
-
-                        <!-- Profile start -->
-                <section class="main-profile-container">      
-<div class="profile-container swiper mySwiper" style="overflow: visible;">
-<div class="portfolio-media swiper-wrapper">
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    <div class="profile-card swiper-slide" >
-        <div class="profile-card-header">
-            <div class="profile-image"></div>
-    
-            <div class="profile-info">
-                <h3 class="profile-name">Dev Ed</h3>
-                <p class="profile-desc">Developer/Conent Creator</p>
-            </div>
-        </div>
-    
-        <div class="profile-card-body">
-            <div class="status">
-                <!-- <li>
-                    <span class="status-value">532</span>
-                    <span class="status-text">Posts</span>
-                </li> -->
-    
-                <li>
-                    <span class="status-value">1.5m</span>
-                    <span class="status-text">Followers</span>
-                </li>
-    
-                <li>
-                    <span class="status-value">423</span>
-                    <span class="status-text">Following</span>
-                </li>
-            </div>
-    
-            <div class="action">
-                <button class="btn btn-primary me-1 ">Follow</button>
-                <button class="btn btn-primary ms-1">Message</button>
-            </div>
-        </div>
-    </div>
-    
+                        
+<!-- navbar start -->
+<!-- <div class="nav-main-container">
+    <div class="nav-container">
+<div class="profile">
+    <img src="../src/assets/img/cork-logo.png" alt="">
 </div>
-<div class="swiper-pagination"></div>                         
-</section>            
-                        <!-- Profile end -->
- <!-- notifications -->
-<section class="main-notification-container">
-    <div class="notifications">
-        <div class="success">
-            <div class="icon pe-2">
-                <i class="fa-regular fa-circle-check"></i>
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Team</a></li>
+
+    </ul>
+</div> -->
+<!-- navbar end -->
+
+<!-- banner start -->
+<div class="hero-community">
+    <div class="banner">
+        <img src="../src/assets/img/infobox-1.jpg" alt="Card image cap" alt="">
+    </div>
+    <div class="banner-content">
+        <div class="hero-logo">
+            <img src="../src/assets/img/cork-logo.png" alt="">
+
+        </div>
+        <div class="buttons">
+            <button class="hero-btn">Add</button>
+            <button class="hero-btn">Add</button>
+        </div>
+        <div class="hero-content">
+            <h4>E-cell</h4>
+            <h3>Boost Your Community With Boostem</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad, repellendus rerum vero reiciendis sit facilis impedit in molestiae sapiente!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad, repellendus rerum vero reiciendis sit facilis impedit in molestiae sapiente!</p>
+            <button class="subscribe">Subscribe</button>
+        </div>
+    </div>
+
+</div>
+<!-- banner end -->
+
+<!-- cards start -->
+
+    <div class="community">
+        <div class="community-card">
+            <div class="community-img">
+                <img src="./Follow.png" alt="">
             </div>
-            <div class="success-content pe-5">
-    <p>Success</p>
-            </div>
-            <div class="closeS" >
-                <i class="fa-regular fa-circle-xmark" 
-                ></i>   
+  
+            <div class="community-content">
+                <div class="community-num">267</div>
+                <div class="community-views">views</div>
             </div>
         </div>
-        <div class="info">
-            <div class="icon pe-2">
-                <i class="fa-solid fa-info "></i>
+        <div class="community-card">
+            <div class="community-img">
+                <img src="./Add User Male.png" alt="">
             </div>
-            <div class="info-content pe-5">
-    <p>Info</p>
-            </div>
-            <div class="closeI">
-                <i class="fa-regular fa-circle-xmark"></i>
+            <div class="community-content">
+                <div class="community-num">267</div>
+                <div class="community-views">views</div>
             </div>
         </div>
-        <div class="error">
-            <div class="icon pe-2">
-                <i class="fa-solid fa-exclamation"></i>
+        <div class="community-card">
+            <div class="community-img">
+                <img src="./Business Group.png" alt="">
             </div>
-            <div class="error-content pe-5">
-                <p>Error</p>
-            </div>
-            <div class="closeE">
-                <i class="fa-regular fa-circle-xmark"></i>
+            <div class="community-content third">
+                <div class="community-num">267</div>
+                <div class="community-views">views</div>
             </div>
         </div>
-        </div>
-</section>
+    </div>
+
+<!-- card end -->
+
+<!-- about start -->
+<div class="about-community">
+    <div class="about-community-img">
+<img src="./undraw_fashion_blogging_re_fhi5.svg" alt="">
+    </div>
+    <div class="about-community-content">
+<h3>About us</h3>
+<h4>From 16jan, 2023</h4>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime architecto impedit ipsum deleniti nam amet ut quo voluptatem consectetur fuga, asperiores quisquam ex in voluptates itaque distinctio veritatis esse magnam consequatur iure id earum sunt doloremque? Cum, at molestias.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime architecto impedit ipsum deleniti nam amet ut quo voluptatem consectetur fuga, asperiores quisquam ex in voluptates itaque distinctio veritatis esse magnam consequatur iure id earum sunt doloremque? Cum, at molestias.</p>
+    </div>
+</div>
+<!-- about end -->
+
  
                     </div>
                 </div>

@@ -34,3 +34,9 @@ closeI.addEventListener("click", function(){
     error.classList.toggle("closeError")
     
     })
+
+    let closeN = Document.querySelector(".closeN")
+    let headerNotification = document.querySelector(".header-notification");
+    closeN.addEventListener('click', function(){
+      headerNotification.classList.toggle("headerNotify")
+    })

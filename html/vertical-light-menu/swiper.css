@@ -2,23 +2,38 @@
 .header-notification{
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  background-color: #58a9eb;
-  align-items: center;
 
-  padding: 0.5rem 1rem;
+  background-color: #58a9eb;
+
+padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   margin-bottom: 0.5rem;
 }
 
-.header-notification .icon i,.close i{
+.header-notification.headerNnotify{
+  display: none;
+}
+
+.header-notification .icon i,.closeN i{
   color: white;
-  font-size:1rem ;
+  font-size:1.5rem ;
   cursor: pointer;
+  padding-top: 0.5rem;
+}
+
+.header-notification .icon{
+  padding-right: 1rem;
 }
 
 .header-notification p{
   color: white;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.header-notification .closeN{
+position: absolute;
+  right: 2rem;
 }
 /* user profile */
 
